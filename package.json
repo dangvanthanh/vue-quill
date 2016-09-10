@@ -1,0 +1,42 @@
+{
+  "name": "vue-quill",
+  "version": "0.1.0",
+  "description": "Quill editor directive using Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server --open=public",
+    "watch:js": "rollup -c -w",
+    "dev": "npm-run-all --parallel serve watch:js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dangvanthanh/vue-quill.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-quill"
+  ],
+  "author": "Dang Van Thanh <dangvanthanh@dangthanh.org> (http://dangthanh.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dangvanthanh/vue-quill/issues"
+  },
+  "homepage": "https://github.com/dangvanthanh/vue-quill#readme",
+  "devDependencies": {
+    "live-server": "^1.1.0",
+    "npm-run-all": "^3.1.0",
+    "quill": "^1.0.3",
+    "rollup": "^0.35.0",
+    "rollup-plugin-buble": "^0.13.0",
+    "rollup-plugin-commonjs": "^4.1.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-plugin-vue": "^2.2.2",
+    "uglify-js": "^2.7.3"
+  },
+  "dependencies": {
+    "rollup-watch": "^2.5.0",
+    "vue": "^1.0.26-csp"
+  }
+}
