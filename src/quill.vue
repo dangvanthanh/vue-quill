@@ -1,7 +1,6 @@
 <template>
 	<div class="quill">
 		<div ref="quill" v-bind:value="value"></div>
-
 	</div>
 </template>
 
@@ -27,7 +26,6 @@ export default {
 
     this.editor.on('text-change', (delta, source) => {
       this.$emit('text-change', this.editor, delta, source)
-      console.log(JSON.stringify(this.editor.getContents()))
     })
   }
 }
