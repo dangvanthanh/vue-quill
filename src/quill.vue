@@ -33,11 +33,10 @@ export default {
 
 <style>
 .quill {
-	max-width: 60em;
-	margin: 0 auto;
+  width: 100%;
 }
 
 .quill-editor {
-	height: 375px;
+	min-height: 90px;
 }
 </style>
